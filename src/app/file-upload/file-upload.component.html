@@ -1,0 +1,27 @@
+<div class="wrapper">
+  <h3>Image Upload</h3>
+
+  <form [formGroup]="uploadForm" (ngSubmit)="submit()">
+    <!-- Select File -->
+    <input type="file" text="uplaod" accept="image/*" (change)="showPreview($event)" />
+
+    <div>
+      <span>Do you want to upload the image</span>
+    </div>
+    
+    <div>
+      <span>front</span>
+    </div>
+
+    <!-- Image Preview -->
+    <div class="imagePreview" *ngIf="imageURL && imageURL !== ''">
+      <img class="image-width" [src]="imageURL" [alt]="uploadForm.value.name">
+    </div>
+
+    <!-- Assign Image Alt -->
+    <input formControlName="name" placeholder="Enter name">
+
+    <button type="submit">Submit</button>
+  </form>
+
+</div>
