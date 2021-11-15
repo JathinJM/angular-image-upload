@@ -34,7 +34,7 @@ Functionalities covered:
 * List of products is displayed using a responsive Grid with the following requirements:
     1. URL: /list
     2. Mobile device: 2 items per row 
-    3. Tablet device: 3 items per row 4
+    3. Tablet device: 3 items per row
     4. Desktop: 6 items per row
 * Each product item contains the following information:
     1. Name
