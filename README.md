@@ -30,7 +30,7 @@ For TDD:
 * jest
 
 Functionalities covered: 
-* Fetching products list and product details from REST end point
+* Fetching products list and product details from REST end points
 * List of products is displayed using a responsive Grid with the following requirements:
     1. URL: /list
     2. Mobile device: 2 items per row 
